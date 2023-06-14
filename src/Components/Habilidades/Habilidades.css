@@ -1,0 +1,40 @@
+.container-habilidades{
+    position: relative;
+    height: auto;
+    padding: 8% 8%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+}
+
+.container-habilidades-titulo{
+    justify-content: center;
+    text-align: center;
+    font-family: var(--tipo-principal);
+    font-size: 3em;
+    z-index: 1;
+    color: var(--color-secundario);
+}
+
+.container-habilidades-svgs{
+    width: 100%;
+    height: auto;
+    max-height: auto;
+
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.icono{
+    max-width: 5em;
+    max-height: 5em;
+    fill: var(--color-terciario);
+
+}

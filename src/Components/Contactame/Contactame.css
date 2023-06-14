@@ -1,0 +1,88 @@
+.container-contactame{
+    position: relative;
+    height: auto;
+    padding: 8% 8%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+}
+
+.container-contactame-titulo{
+    justify-content: center;
+    text-align: center;
+    font-family: var(--tipo-principal);
+    font-size: 3em;
+    z-index: 1;
+    color: var(--color-secundario);
+}
+
+.container-contactame-formulario{
+    width: 100%;
+    height: auto;
+
+    background-color: var(--color-terciario);
+    border-radius: 1em;
+    padding: 5% 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+.form-section{
+    width: 100%;
+
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-evenly;
+    gap: .5em
+}
+
+.form-nameData{
+    color: var(--color-principal);
+    font-family: var(--tipo-secundaria);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.form-data{
+    border-bottom: var(--color-principal) solid .1vw;
+    color: var(--color-principal);
+    font-family: var(--tipo-secundaria);
+    font-size: .9em;
+}
+
+.form-dataArea{
+    border: var(--color-principal) solid .1vw;
+    color: var(--color-principal);
+    font-family: var(--tipo-secundaria);
+    font-size: .9em;
+}
+
+.form-button{
+    font-family: var(--tipo-secundaria);
+    font-weight: bold;
+    background-color: var(--color-terciario);
+    color: var(--color-principal);
+    padding: 1em 2em;
+    border: .1em solid var(--color-principal);
+    border-radius: 1em;
+    margin-top: 2em;
+}
+
+.form-button:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    border: .1em solid var(--color-secundario);
+
+
+
+}

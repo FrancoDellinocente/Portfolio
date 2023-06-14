@@ -1,0 +1,120 @@
+.container-card {
+    position: relative;
+    background-color: var(--color-terciario);
+    border-radius: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: height 0.3s;
+
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+
+ 
+  
+  .container-card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: var(--color-terciario);
+    font-size: 1.3vw;
+    hyphens: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+    opacity: 0;
+    transition: height 0.3s, opacity 0.3s;
+  }
+  
+  .container-card:hover .container-card-info {
+    height: 100%;
+    opacity: 1;
+  }
+
+  .info-titulo {
+    color: var(--color-principal);
+    width: 100%;
+    font-size: 1em;
+    font-family: var(--tipo-secundaria);
+    font-weight: bold;
+    padding: 0 5%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-subtitulo{
+    color: var(--color-principal);
+    width: 100%;
+    font-size: .75em;
+    font-family: var(--tipo-secundaria);
+    padding: 0 5%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-card-boton{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row;
+  }
+
+  .card-boton{
+    color: var(--color-principal);
+    font-size: 1em;
+    font-family: var(--tipo-secundaria);
+    font-weight: bold;
+    padding: .5em 1em;
+    border: .1rem solid var(--color-principal);
+    border-radius: 1em;
+  }
+
+  .card-boton:hover{
+    background-color: var(--color-secundario);
+    border: .1rem solid var(--color-secundario);
+  }
+
+  @media (max-width: 1440px) {
+    .container-card-info {
+      font-size: 2vw;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .container-card-info {
+      font-size: 2.3vw;
+    }
+  }
+  @media (max-width: 972px) {
+    .container-card-info {
+      font-size: 2.6vw;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container-card-info {
+      font-size: 3.6vw;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .container-card-info {
+      font-size: 4.6vw;
+    }
+  }
