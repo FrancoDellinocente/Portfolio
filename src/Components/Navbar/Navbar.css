@@ -1,4 +1,4 @@
-.containerNavBar{
+.navbar{
     position:fixed;
     width: 100%;
     background-color: var(--color-terciario);
@@ -12,7 +12,7 @@
 }
 
 
-.containerNavBar__Logo{
+.navbar__logo{
    height: 6em;
    width: 6em;
    display: flex;
@@ -20,15 +20,15 @@
    
 }
 
-.Logo__svg{
+.logo__svg{
     stroke: var(--color-principal);
 }
 
-.Logo__svg:hover{
+.logo__svg:hover{
     stroke: var(--color-secundario);
 }
 
-.containerNavBar__Botons{
+.navbar__buttons{
     height: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -39,11 +39,11 @@
 
 
 
-.Boton__contenedor:hover{
+.buttons__button:hover{
     background-color:var(--color-secundario);
 }
 
-.Boton__Boton{
+.button__link{
     padding: 2.3em 2em;
 
     color: var(--color-principal);
@@ -51,19 +51,19 @@
     font-weight: 700;
 }
 
-.Boton__Movile{
+.navbar__buttonmovile{
     display: none;
     cursor: pointer;
 }
 
-.svg{
+.buttonmovile__svg{
     fill: var(--color-principal);
     height: 2em;
 }
 
   @media (max-width: 852px) {
 
-    .containerNavBar__Botons{
+    .navbar__buttons{
         display: flex;
         width: 100%;
         height: 0vh;
@@ -73,7 +73,7 @@
         transition: all .5s ease;
     }
 
-    .containerNavBar__Botons.isActive{
+    .navbar__buttons.isActive{
         display: flex;
         width: 100%;
         height: 50vh;
@@ -82,7 +82,7 @@
         opacity: 1;
     }
 
-    .Boton__Movile{
+    .navbar__buttonmovile{
         display: block;
     }
   }

@@ -1,4 +1,4 @@
-.container-proyectos{
+.proyectos{
     position: relative;
     width: 100%;
     height: auto;
@@ -13,14 +13,14 @@
     justify-content: space-evenly;
     gap: 4rem;
 }
-.container-proyectos-titulo{
+.proyectos__titulo{
     justify-content: center;
     text-align: left;
     font-family: var(--tipo-principal);
     font-size: 3em;
     z-index: 1;
 }
-.container-proyectos-wrapcards{
+.proyectos__wrapcards{
 
     width: auto;
     height: auto;
@@ -33,7 +33,7 @@
     gap: 1em;
 }
 
-.container-proyectos-otrospro{
+.proyectos__otrospro{
     font-family: var(--tipo-secundaria);
     font-size: 100%;
     background-color: var(--color-terciario);
@@ -48,7 +48,7 @@
 
 }
 
-.container-proyectos-otrospro:hover{
+.proyectos__otrospro:hover{
     background-color: var(--color-secundario);
     color: var(--color-principal);
     border: .1em solid var(--color-secundario);

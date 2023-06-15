@@ -27,30 +27,30 @@ const Contactame = () => {
     
 
     return (
-        <div className='container-contactame' id='contactameRef'>
-            <h1 className="container-contactame-titulo">Contactame</h1>
-            <form ref={form} onSubmit={sendEmail} className="container-contactame-formulario" action="">
-                    <div className="form-section">
-                        <label className="form-nameData">Nombre Completo</label>
-                        <input className="form-data" type="text" name="name" required></input>
+        <div className='contactame' id='contactameRef'>
+            <h1 className="contactame__titulo">Contactame</h1>
+            <form ref={form} onSubmit={sendEmail} className="contactame__form" action="">
+                    <div className="form__section">
+                        <label className="form__namedata">Nombre Completo</label>
+                        <input className="form__data" type="text" name="name" required></input>
                     </div>
-                    <div className="form-section">
-                        <label className="form-nameData">Direccion Email</label>
-                        <input className="form-data" type="email" name="user_email" required></input>
+                    <div className="form__section">
+                        <label className="form__namedata">Direccion Email</label>
+                        <input className="form__data" type="email" name="user_email" required></input>
                     </div>
-                    <div className="form-section">
-                        <label className="form-nameData">Numero De Telefono (Opcional)</label>
-                        <input className="form-data" type="tel" name="phone"></input>
+                    <div className="form__section">
+                        <label className="form__namedata">Numero De Telefono (Opcional)</label>
+                        <input className="form__data" type="tel" name="phone"></input>
                     </div>
-                    <div className="form-section">
-                        <label className="form-nameData">Asunto</label>
-                        <input className="form-data" type="text" name="subject" required></input>
+                    <div className="form__section">
+                        <label className="form__namedata">Asunto</label>
+                        <input className="form__data" type="text" name="subject" required></input>
                     </div>
-                    <div className="form-section">
-                        <label className="form-nameData">Mensaje</label> 
-                        <textarea className="form-dataArea" name="message" rows="5" required></textarea>
+                    <div className="form__section">
+                        <label className="form__namedata">Mensaje</label> 
+                        <textarea className="form__dataarea" name="message" rows="5" required></textarea>
                     </div>
-                    <button className="form-button">
+                    <button className="form__button">
                         Send
                     </button>
             </form>

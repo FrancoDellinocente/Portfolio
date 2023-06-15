@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import Welcome from '../Welcome/Welcome';
 import Proyectos from '../Proyectos/Proyectos';
 import SobreMi from '../SobreMi/SobreMi';

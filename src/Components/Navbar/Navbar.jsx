@@ -12,16 +12,16 @@ const Navbar = () => {
 
 
   return (
-    <div className="containerNavBar">
-      <div className="containerNavBar__Logo">
+    <div className="navbar">
+      <div className="navbar__logo">
         <a href="/">
-          <LogoPortfolio className="Logo__svg" />
+          <LogoPortfolio className="logo__svg" />
         </a>
       </div>
 
-      <button className="Boton__Movile" onClick={toggleMenu}>
+      <button className="navbar__buttonmovile" onClick={toggleMenu}>
         <svg
-          className="svg"
+          className="buttonmovile__svg"
           xmlns="http://www.w3.org/2000/svg"
           width="16"
           height="16"
@@ -35,24 +35,24 @@ const Navbar = () => {
         </svg>
       </button>
 
-      <ul className={`containerNavBar__Botons ${menu ? 'isActive' : ''}`}>
-        <li className="Boton__contenedor">
-          <Link className="Boton__Boton" onClick={toggleMenu} activeClass="active" to="proyectoRef" spy={true} smooth={true} duration={200}>
+      <ul className={`navbar__buttons ${menu ? 'isActive' : ''}`}>
+        <li className="buttons__button">
+          <Link className="button__link" onClick={toggleMenu} activeClass="active" to="proyectoRef" spy={true} smooth={true} duration={200}>
             PROYECTOS
           </Link>
         </li>
-        <li className="Boton__contenedor">
-          <Link className="Boton__Boton"  onClick={toggleMenu} to="sobreMiRef" spy={true} smooth={true} offset={-120} duration={200}>
+        <li className="buttons__button">
+          <Link className="button__link"  onClick={toggleMenu} to="sobreMiRef" spy={true} smooth={true} offset={-120} duration={200}>
             SOBRE MI
           </Link>
         </li>
-        <li className="Boton__contenedor">
-          <Link className="Boton__Boton" onClick={toggleMenu} to="habilidadesRef" spy={true} smooth={true} duration={200}>
+        <li className="buttons__button">
+          <Link className="button__link" onClick={toggleMenu} to="habilidadesRef" spy={true} smooth={true} duration={200}>
             HABILIDADES
           </Link>
         </li>
-        <li className="Boton__contenedor">
-          <Link className="Boton__Boton" onClick={toggleMenu} to="contactameRef" spy={true} smooth={true} duration={200}>
+        <li className="buttons__button">
+          <Link className="button__link" onClick={toggleMenu} to="contactameRef" spy={true} smooth={true} duration={200}>
             CONTACTAME
           </Link>
         </li>

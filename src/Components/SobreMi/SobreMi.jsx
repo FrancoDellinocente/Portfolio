@@ -16,15 +16,15 @@ const SobreMi = () => {
 
 
   return (
-      <div className='container-sobremi' id='sobreMiRef'>
-        <h1 className="container-sobremi-titulo" >Sobre Mi</h1>
-        <div className="container-sobremi-info">
-            <div className="sobremi-info-texto" >
+      <div className='sobremi' id='sobreMiRef'>
+        <h1 className="sobremi__titulo" >Sobre Mi</h1>
+        <div className="sobremi__info">
+            <div className="info__texto" >
                 <p>{info.parrafo1} <br/><br/></p>
                 <p>{info.parrafo2} <br/> <br/></p>
                 <p>{info.parrafo3} </p>
             </div>
-            <img className="sobremi-info-imagen" src={Foto} />
+            <img className="info__imagen" src={Foto} />
         </div>
       </div>
   )

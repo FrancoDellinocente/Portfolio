@@ -1,4 +1,4 @@
-.container-footer{
+.footer{
     position: relative;
     height: auto;
     padding: 2% 8%;
@@ -9,7 +9,7 @@
 
 }
 
-.container-footer-redes{
+.footer__redes{
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
@@ -17,7 +17,7 @@
     justify-content: space-around;
 }
 
-.redes-button{
+.redes__button{
     padding: 1em 2em;
     border: .1em solid var(--color-principal);
     border-radius: 1em;
@@ -30,12 +30,12 @@
     gap: 1em;
 }
 
-.redes-button:hover{
+.redes__button:hover{
     background-color: var(--color-secundario);
     border: .1em solid var(--color-secundario);
 }
 
-.redes-svg{
+.button__svg{
     fill: var(--color-principal);
     width: 3vw;
     height: 6vh;
@@ -43,6 +43,6 @@
     min-height: 2rem;
 }
 
-.redes-svg:hover{
+.button__svg:hover{
     fill: var(--color-principal);
 }

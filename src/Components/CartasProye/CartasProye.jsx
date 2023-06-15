@@ -7,14 +7,14 @@ import './CartasProye.css'
 const CartasProye = ({Proyecto}) => {
 
   return (
-    <div className='container-card'>
-        <img className='card-img' src={Proyecto.img} />
-        <div className='container-card-info'>
-          <h1 className='info-titulo'>{Proyecto.name}</h1>
-          <p className='info-subtitulo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis alias error, pariatur fuga quaerat</p>
-          <div className='container-card-boton'>
-            <a  className='card-boton' href="#">GitHub</a>
-            <a  className='card-boton' href="#">Web Site</a>
+    <div className='card'>
+        <img className='card__img' src={Proyecto.img} />
+        <div className='card__info'>
+          <h1 className='info__titulo'>{Proyecto.name}</h1>
+          <p className='info__subtitulo'>{Proyecto.description}</p>
+          <div className='card__buttons'>
+            <a  className='card__button' href={Proyecto.webSite}>Web Site</a>
+            {Proyecto.gitHub.length !== 0 &&<a  className='card__button' href={Proyecto.gitHub}>GitHub</a>}
           </div>
         </div>
     </div>

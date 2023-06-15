@@ -1,4 +1,4 @@
-.container-sobremi{
+.sobremi{
     position: relative;
     height: auto;
     padding: 2% 8%;
@@ -10,7 +10,7 @@
     gap: 4rem;
 }
 
-.container-sobremi-titulo{
+.sobremi__titulo{
     justify-content: center;
     text-align: center;
     font-family: var(--tipo-principal);
@@ -19,7 +19,7 @@
     color: var(--color-secundario);
 }
 
-.container-sobremi-info{
+.sobremi__info{
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -27,7 +27,7 @@
     
 }
 
-.sobremi-info-texto{
+.info__texto{
     max-width: 40%;
 
     color: var(--negro);
@@ -39,14 +39,14 @@
 
 
 
-.sobremi-info-imagen{
+.info__imagen{
     width: auto;
     height: auto;
     border-radius: 2em;
 }
 
 @media (max-width: 768px) {
-    .container-sobremi-info{
+    .sobremi__info{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -54,7 +54,7 @@
         gap: 1em;
     }
 
-    .sobremi-info-texto{
+    .info__texto{
         max-width: 100%;
     
         color: var(--negro);
