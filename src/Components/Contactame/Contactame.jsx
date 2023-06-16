@@ -2,7 +2,7 @@
 import React, { useRef } from 'react'
 import './Contactame.css'
 import emailjs from '@emailjs/browser';
-import 'aos/dist/aos.css';
+
 
 const Contactame = () => {
 
