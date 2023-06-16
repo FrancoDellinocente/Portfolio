@@ -5,12 +5,18 @@ Presentation letter to the public and to showcase my projects and work to potent
 The technologies used were :
 
 HTML
+
 CSS
+
 JAVASCRIPT
+
 REACT
 
 Development environment :
 
 REACT
 
-![Portfolio](https://github.com/FrancoDellinocente/Portfolio/assets/62858034/5a4c9f1d-c751-4fe5-97f5-eac1d9c22d1b)
+https://francodellinocente.github.io/Portfolio/
+
+![Imagen](https://github.com/FrancoDellinocente/Portfolio/assets/62858034/38259931-2e6b-4bf2-bc39-5358be7debf4)
+
