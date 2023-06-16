@@ -3,12 +3,13 @@ import React, { useEffect } from 'react'
 import './Proyectos.css'
 //import imagenEjm from '../../assets/imgEjm.jpg'
 import CartasProye from '../CartasProye/CartasProye'
+import ImgEjm from '../../assets/EjmImg.png'
 // eslint-disable-next-line no-unused-vars
 const Proye = [
     {
         id: 1 ,
         name: 'Portfolio',
-        img: '/src/assets/EjmImg.png',
+        img: ImgEjm,
         webSite: '/',
         gitHub: '',
         description: 'Portfolio creado con React y CSS utilizando metodologia BEM',
@@ -16,7 +17,7 @@ const Proye = [
     {
         id: 2 ,
         name: 'Postick',
-        img: '/src/assets/EjmImg.png',
+        img: ImgEjm,
         webSite: '/',
         gitHub: '/' ,
         description: 'Texto ejmplo',
@@ -24,7 +25,7 @@ const Proye = [
     {
         id: 3 ,
         name: 'Roots',
-        img: '/src/assets/EjmImg.png',
+        img: ImgEjm,
         webSite: '/',
         gitHub: '/' ,
         description: 'Texto ejmplo',
@@ -32,7 +33,7 @@ const Proye = [
     {
         id: 4 ,
         name: 'The ones from The house next door',
-        img: '/src/assets/EjmImg.png',
+        img: ImgEjm,
         webSite: '/',
         gitHub: '/' ,
         description: 'Texto ejmplo',
@@ -40,7 +41,7 @@ const Proye = [
     {
         id: 5 ,
         name: 'View of the future',
-        img: '/src/assets/EjmImg.png',
+        img: ImgEjm,
         webSite: '/',
         gitHub: '/' ,
         description: 'Texto ejmplo',
@@ -48,7 +49,7 @@ const Proye = [
     {
         id: 6 ,
         name: '4PM Sun',
-        img: '/src/assets/EjmImg.png',
+        img: ImgEjm,
         webSite: '/',
         gitHub: '/' ,
         description: 'Texto ejmplo',
