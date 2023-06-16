@@ -28,12 +28,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: jobExa
-        run: echo "runo"
-        env:
-          VITE_USER_ID: ${{ secrets.VITE_USER_ID }}
-          VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
-          VITE_PUBLIC_KEY: ${{ secrets.VITE_PUBLIC_KEY }}
       - name: Checkout
         uses: actions/checkout@v3
       - name: Set up Node
@@ -54,4 +48,8 @@ jobs:
           path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
+        env:
+          VITE_USER_ID: ${{ secrets.VITE_USER_ID }}
+          VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
+          VITE_PUBLIC_KEY: ${{ secrets.VITE_PUBLIC_KEY }}
         uses: actions/deploy-pages@v1
