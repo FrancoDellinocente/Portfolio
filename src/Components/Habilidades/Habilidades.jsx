@@ -2,7 +2,6 @@
 import React, {useEffect} from 'react'
 import './Habilidades.css'
 
-import 'aos/dist/aos.css';
 
 const Habilidades = () => {
 
