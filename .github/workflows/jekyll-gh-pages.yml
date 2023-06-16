@@ -38,7 +38,12 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: |
+          npm install
+          VITE_USER_ID=${{ secrets.VITE_USER_ID }} \
+          VITE_TEMPLATE_ID=${{ secrets.VITE_TEMPLATE_ID }} \
+          VITE_PUBLIC_KEY=${{ secrets.VITE_PUBLIC_KEY }} \
+          npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
