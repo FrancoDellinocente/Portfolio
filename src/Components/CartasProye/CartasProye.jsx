@@ -14,7 +14,7 @@ const CartasProye = ({Proyecto}) => {
           <p className='info__subtitulo'>{Proyecto.description}</p>
           <div className='card__buttons'>
             <a  className='card__button' href={Proyecto.webSite}>Web Site</a>
-            {Proyecto.gitHub.length === 0 &&<a  className='card__button' href={Proyecto.gitHub}>GitHub</a>}
+            {Proyecto.gitHub.length !== 0 &&<a  className='card__button' href={Proyecto.gitHub}>GitHub</a>}
           </div>
         </div>
     </div>
