@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <a href="/Portfolio/">
+        <a href="https://francodellinocente.github.io/Portfolio/">
           <LogoPortfolio className="logo__svg" />
         </a>
       </div>
