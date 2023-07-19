@@ -16,11 +16,11 @@ const Proye = [
     },
     {
         id: 2 ,
-        name: 'Postick',
-        img: ImgEjm,
-        webSite: 'https://francodellinocente.github.io/Portfolio/',
-        gitHub: '' ,
-        description: 'Texto ejmplo',
+        name: 'Gabrielle Ricciardi',
+        img: "https://i.postimg.cc/sfPKyWnG/Captura-gabrielle-ricciardi.png",
+        webSite: 'https://gabrielle-ricciardi-wv3q.vercel.app/',
+        gitHub: 'https://github.com/FrancoDellinocente/Gabrielle-Ricciardi' ,
+        description: 'Landing page creada con React y CSS utilizando metodologia BEM',
     },
     {
         id: 3 ,
