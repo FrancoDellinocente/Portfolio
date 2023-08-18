@@ -65,7 +65,7 @@ const Proyectos = () => {
         <div className="proyectos__wrapcards" >
             {Proye.map((aux) => (<CartasProye className="wrapcards__card" key={aux.id} Proyecto={aux} />))} 
         </div>
-        <a className="proyectos__otrospro" href='#'>...Otros proyectos</a>
+        <a className="proyectos__otrospro" href='https://github.com/FrancoDellinocente'>...Otros proyectos</a>
       </div>
   )
 }
