@@ -57,7 +57,7 @@
     min-height: 2rem;
   }
 
-  .welcome-redes-svg:hover{ 
+  .redes__svg:hover{ 
     fill: var(--color-secundario);
   }
 
