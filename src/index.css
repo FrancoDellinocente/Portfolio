@@ -1,24 +1,4 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  overflow-x: hidden;
-  background-color: #FDF0D5;
-} */
-
-/*
-
-  Con este reset vamos a resolver:
-    👉 Unificar el uso de Custom Properties
-    👉 Problemas de box-model más generales
-    👉 Problemas con imagenes, vídeos e iconos svg
-    👉 Problemas con tipografías y etiquetas input en formularios
-    👉 Unificar la tipografía de todas las etiquetas de una web
-
-*/
 /* Aquí definimos las Custom properties */
 :root {
   --negro: #000;

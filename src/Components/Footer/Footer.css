@@ -21,7 +21,7 @@
 .redes__button{
     padding: 1em 2em;
     border: .1em solid var(--color-principal);
-    border-radius: 1em;
+    border-radius: .5em;
 
     display: flex;
     flex-flow: row;
